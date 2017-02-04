@@ -1,0 +1,36 @@
+@import 'nativescript-theme-core/css/core.light.css';
+
+Page {
+  background-color: white;
+  font-size: 15;
+}
+TextField {
+  padding: 10;
+  font-size: 13;
+}
+
+.small-spacing {
+  margin: 5;
+}
+.medium-spacing {
+  margin: 10;
+}
+
+ActionBar {
+  background-color: black;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.small-label {
+  font-size: xx-small;
+  color: grey;
+}
+
+.small {
+  font-size: xx-small;
+}

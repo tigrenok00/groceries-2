@@ -1,0 +1,9 @@
+
+    <TabView #tabview [selectedIndex]="1" row="2">
+        <StackLayout *tabItem="{title: 'second'}">
+            <Button text="Scan UPC" (tap)="scan()"></Button>
+        </StackLayout>
+        <StackLayout *tabItem="{title: 'first'}">
+            
+        </StackLayout>
+    </TabView>
